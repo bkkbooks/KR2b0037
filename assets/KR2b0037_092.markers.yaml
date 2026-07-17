@@ -32,6 +32,7 @@ markers:
   - {type: punctuation, offset: 36, content: ), id: KR2b0037_krp_092-bkkpn6}
   - {type: substitution, offset: 39, original: 䝉, replacement: 蒙, reason: scribal-variant-collapsed, mapping: {identifier: 'bkk:mapping/variant-fold-v1', hash: 'sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20', entry: vf-4689}}
   - {type: punctuation, offset: 46, content: (, id: KR2b0037_krp_092-bkkpn7}
+  - {type: 'voice:problem', offset: 46, length: 0, id: KR2b0037_bkk_092-bkkvprob1, source: parens, bucket: front, code: unmatched-open, message: unmatched '(' at offset 46}
   - {type: punctuation, offset: 48, content: /, id: KR2b0037_krp_092-bkkpn8}
   body:
   - {type: punctuation, offset: 0, content: ), id: KR2b0037_krp_092-bkkpn1}
@@ -40,6 +41,7 @@ markers:
       ', id: KR2b0037_krp_092-bkkkrnewl1}
   - {type: line-break, offset: 0, content: '', id: KR2b0037_WYG_092-1a06}
   - {type: indent, offset: 0, content: 　, id: KR2b0037_krp_092-bkkind1}
+  - {type: 'voice:problem', offset: 0, length: 0, id: KR2b0037_bkk_092-bkkvprob2, source: parens, bucket: body, code: stray-close, message: unexpected ')' at offset 0 with no matching '('}
   - {type: punctuation, offset: 18, content: (, id: KR2b0037_krp_092-bkkpn2}
   - {type: punctuation, offset: 20, content: /, id: KR2b0037_krp_092-bkkpn3}
   - {type: punctuation, offset: 22, content: ), id: KR2b0037_krp_092-bkkpn4}
@@ -7736,4 +7738,4 @@ markers:
 
       ', id: KR2b0037_krp_092-bkkkrnewl1201}
   back: []
-hash: sha256:785106d3d9db244223a8a5e0a4431b084da3048855cb29a7d51ff9ef22d4fb79
+hash: sha256:72b3d9ca8fbce28d55833d23d09d52f96ddab0d928f7d2788abec61dfa88eebe
